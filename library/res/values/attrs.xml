@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RootView">
+        <attr name="menuId" format="integer" />
+        <attr name="contentId" format="integer" />
+        <attr name="menuMargin" format="dimension" />
+    </declare-styleable>
+
+</resources>

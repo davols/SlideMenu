@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/me.davido.android.slidemenu.sample"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <me.davido.android.slidemenu.library.RootView
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:menuMargin="100dp" >
+
+        <TextView
+            android:background="@color/blue"
+            android:text="@string/menu_slide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:background="@color/yellow"
+            android:text="@string/content_slide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </me.davido.android.slidemenu.library.RootView>
+
+</LinearLayout>
